@@ -4,6 +4,17 @@
 @import url('menu.css');
 @import url('footer.css');
 
+:root {
+    --azul2: #E1F3F5;
+    --azul3: #C3E8EB;
+    --azul4: #A5DDE1;
+    --azul5: #87D2D7;
+    --azul6: #69C7CD;
+    --azul7: #4BBCC3;
+    --azul8: #3CAFB7;
+    --azul9: #2D8A91;
+    --azul10: #1E656B;
+}
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -52,7 +63,7 @@ section {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: #2D8A91;
+    background-color: var(--azul9);
     color:white;
     font-size: 2rem;
     text-decoration: none;
@@ -67,7 +78,7 @@ section {
 
 .section-title {
     font-size: 3rem;
-    color: #1E656B;
+    color: var(--azul10);
 }
 
 .section-subtitle {

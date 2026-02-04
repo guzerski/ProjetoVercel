@@ -65,7 +65,7 @@
 }
 
 .shape {
-    background-color: #E1F3F5;
+    background-color: var(--azul2);
     width: 50%;
     height: 100%;
     position: absolute;

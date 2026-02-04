@@ -4,6 +4,7 @@ header {
     position: sticky;
     top:0;
     background-color: #F0F9F9;
+    transition: box-shadow 0.3s ease;
     z-index: 3;
 }
 
@@ -15,8 +16,15 @@ header {
 }
 
 #nav_logo {
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+
+    display: flex;
     font-size: 24px;
     color: #3E8E91;
+
+    white-space: nowrap;
 }
 
 #nav_list {
@@ -32,7 +40,9 @@ header {
 }
 
 .nav-item.active a {
-    color :black;
+    font-weight: 600;
+    transition: width 0.3s;
+    
 }
 
 #mobile_btn {

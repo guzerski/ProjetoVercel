@@ -30,6 +30,10 @@
     padding-bottom: 20px;
 } 
 
+.tratamento .btn-default {
+    margin-top: auto; 
+}
+
 .trat-description {
     color: black;
     text-align: center;
