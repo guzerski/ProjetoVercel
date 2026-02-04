@@ -110,14 +110,5 @@
         display: none;
     }
 
-    #cta .title {
-        font-size: 1.5rem; /* No PC é 4rem */
-        line-height: 1.2; /* Ajuda a não ficar muito espaçado */
-    }
-
-    /* Diminui o destaque "você e seus filhos!" */
-    #cta .title span {
-        font-size: 2rem; /* No PC é 4.2rem */
-        display: block; /* Garante que fique em uma linha separada, se quiser */
-    }
+    
 }
