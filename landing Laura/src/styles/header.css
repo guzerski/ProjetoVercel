@@ -54,16 +54,25 @@ header {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     #nav_list,
     #navbar .btn-default {
         display: none;
     }
+
+    header {
+        padding: 10px 8%;
+    }
+
+    #nav_logo {
+        font-size: 1.3rem;
+    }
+
     #mobile_btn {
         display: block;
         border: none;
         background-color: transparent;
-        font-size: 1.55rem;
+        font-size: 1.3rem;
         cursor: pointer;
     }
 
