@@ -1,0 +1,27 @@
+footer {
+    background-color: F0F9F9;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 8% 40px 8%;
+}
+
+
+#copyright {
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
